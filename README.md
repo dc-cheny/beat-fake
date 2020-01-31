@@ -17,7 +17,7 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple xxx # xxx是你所需要
 pip install cmake
 ```
 ## 文件目录：
- tools 放置训练代码 
- demo 放置baseline代码
- data 放置样例视频文件(目前只放了两个视频)
+tools 放置训练代码  
+demo 放置baseline代码  
+data 放置样例视频文件(目前只放了两个视频)  
  

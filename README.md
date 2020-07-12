@@ -4,7 +4,7 @@
 本资源为[Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge)比赛代码。目前比赛已结束，现将代码公开。  
 
 该代码是我们的方案一思路：利用dlib开源库定位人脸的关键点，利用这些关键点构造特征，最终放入XGBoost分类器预测视频的真假。
-![alt](figures/1.png) _dlib识别关键点_
+![图片显示失败](https://github.com/dc-cheny/beat-fake/blob/master/figures/1.png) _dlib识别关键点_
 
 特征介绍(部分)：  
 • 面部的色度:找到一个凸包，在已有边界的基础上再往上拓展 0.5 个已有的极差。先算每一张脸的均值，再算视频中均值的标准差  

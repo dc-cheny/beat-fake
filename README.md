@@ -40,5 +40,10 @@ demo文件夹包含有特征工程脚本(feature_service.ipynb)+xgboost分类器
 官网链接：https://www.kaggle.com/c/deepfake-detection-challenge/data
 
 
-#### 
+## 实验
+| BACKBONE | EPOCH NUM | VAL LOSS(MSE) | SHARP RATIO | CORR | Detail |
+| -- | -- | -- | -- | -- | -- | 
+| Resnet50 | 40 | 100 | 2 | -0.04 | use new backbone | 
+| Resnet50 | 40 | 100 | 2 | -0.02 | use new backbone, standard data | 
+| Desnet141 | 40 | 23 | 5 | 0.02(+xx%) | xxx | 
 
